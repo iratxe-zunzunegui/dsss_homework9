@@ -5,8 +5,8 @@ from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandl
 import torch
 from transformers import pipeline
 
-# Bot's API token
-API_TOKEN = "7945962873:AAHuv3q8DZe1YJer2f1rqAln7ee_BV-o3vM"
+# Your bot's API token
+API_TOKEN = "YOUR_API_TOKEN"
 
 # Enable logging
 logging.basicConfig(
